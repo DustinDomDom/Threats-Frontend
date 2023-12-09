@@ -1,0 +1,90 @@
+.profile-info {
+    height: 140px;
+    width: 600px;
+    margin-left: 250px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-section {
+    color: black;
+    height: 400px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.main-name {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.side-name {
+    font-weight: 400;
+    font-size: 18px;
+    font-size: 15px;
+}
+
+.threads-info {
+    color: darkgrey;
+    font-weight: 100;
+    font-size: 10px;
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.follower {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: darkgray;
+    cursor: pointer;
+}
+
+.follower:hover {
+    text-decoration: underline;
+}
+
+.profile-icon{
+    font-size: 50px;
+    padding-left: 13px;
+    margin: 15px;
+    margin-bottom: 10px;
+    background-color: darkgray;
+    border-radius: 100%;
+}
+
+.insta-icon {
+    font-size: 25px;
+    margin: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 50px;
+}
+
+.insta-icon:hover {
+    background-color: lightgray;
+    border-radius: 100%;
+}
+
+.edit-info{
+    height: 40px;
+    width: 580px;
+    margin: 10px;
+    margin-left: 250px;
+}
+
+.edit-button{
+    font-size: 15px;
+    font-weight: 500;
+    width: 570px;
+    height: 35px;
+    text-align: center;
+    line-height: 1em;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,67 @@
+.posting-tab{
+    height: 40px;
+    width: 580px;
+    margin: 20px;
+    margin-left: 250px;
+    font-weight: 600;
+    color: darkgray;
+    justify-content: space-around;
+    border-bottom: 1px solid darkgray;
+    display: flex;
+}
+
+.threads-tab,
+.replies-tab,
+.reposts-tab{
+    border: none;
+    background-color: white;
+    font-weight: 500;
+    font-size: 14px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.threads-tab{
+    color: black;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+}
+
+.posted-tab{
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-side-posted{
+    width: 580px;
+    height: 140px;
+    margin-left: 250px;
+}
+
+.posted-name{
+    font-weight: 500;
+}
+
+.posted-name,
+.posted-description,
+.posted-icon{
+    margin: 5px;
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+.posted-icon{
+    display: flex;
+    height: 50px;
+    width: 130px;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.right-side-posted{
+    height: 50px;
+    width: 320px;
+    padding: 10px;
+}
